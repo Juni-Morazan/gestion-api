@@ -1,0 +1,3 @@
+CREATE USER IF NOT EXISTS 'gestion_app'@'%' IDENTIFIED BY 'dev-gestion-2026';
+GRANT SELECT, INSERT, UPDATE, DELETE ON gestion.* TO 'gestion_app'@'%';
+FLUSH PRIVILEGES
